@@ -1,0 +1,14 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# Node
+frontend/node_modules/
+
+# Test files
+backend/resume1.txt
+backend/resume2.txt
+backend/resume3.txt
+backend/test_jd.txt
