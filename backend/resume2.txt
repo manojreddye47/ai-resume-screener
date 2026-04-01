@@ -1,0 +1,5 @@
+Name: Priya Patel
+SKILLS: Python, Django, MySQL, basic HTML, CSS
+EXPERIENCE: Backend Developer StartupXYZ 2 years. Built REST APIs Django, managed MySQL databases.
+PROJECTS: Inventory management Django, REST API for mobile app
+EDUCATION: B.Tech IT Osmania University 2023

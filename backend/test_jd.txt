@@ -1,0 +1,8 @@
+Frontend Developer Job Description
+
+We are looking for a skilled Frontend Developer with:
+- 1-2 years of experience with React.js
+- Strong knowledge of HTML, CSS, JavaScript
+- Experience with REST APIs and Git
+- Knowledge of responsive design
+- Bonus: TypeScript, Tailwind CSS, any backend experience

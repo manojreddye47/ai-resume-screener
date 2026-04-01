@@ -1,0 +1,5 @@
+Name: Arjun Sharma
+SKILLS: React.js, JavaScript, HTML, CSS, TypeScript, Git, REST APIs, Tailwind CSS
+EXPERIENCE: Frontend Developer Intern at TechCorp 1 year. Built 3 React apps, REST API integration, responsive design with Tailwind.
+PROJECTS: Portfolio website React+Tailwind, Weather app React hooks, github.com/arjunsharma
+EDUCATION: B.Tech CSE JNTU 2024code 

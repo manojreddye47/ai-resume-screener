@@ -1,0 +1,5 @@
+Name: Rahul Verma
+SKILLS: React.js, JavaScript, HTML, CSS, Git, Node.js, MongoDB
+EXPERIENCE: Freelance Frontend Developer 6 months. Built e-commerce UI React, integrated payment APIs.
+PROJECTS: E-commerce React+Node.js, real-time chat Socket.io, github.com/rahulverma
+EDUCATION: B.Tech CSE VIT 2024
