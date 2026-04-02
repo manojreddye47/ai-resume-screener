@@ -1,0 +1,18 @@
+Name: Rahul Verma
+Email: rahul@email.com
+
+SKILLS
+React.js, JavaScript, HTML, CSS, Git, Node.js, MongoDB
+
+EXPERIENCE
+Freelance Frontend Developer (6 months)
+- Built e-commerce UI with React.js
+- Integrated payment gateway APIs
+
+PROJECTS
+- E-commerce website with React + Node.js
+- Real-time chat app using Socket.io
+- GitHub: github.com/rahulverma
+
+EDUCATION
+B.Tech CSE - VIT University 2024

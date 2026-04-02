@@ -3,13 +3,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 import fitz
 import pdfplumber
-from google import genai
+from groq import Groq
 from dotenv import load_dotenv
 import os
 import json
+import time
 
 load_dotenv()
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 app = FastAPI()
 
@@ -74,11 +75,12 @@ Respond ONLY with a valid JSON object in this exact format:
 }}
 """
     try:
-        response = client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=prompt
+        response = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
         )
-        raw = response.text.strip()
+        raw = response.choices[0].message.content.strip()
         raw = raw.replace("```json", "").replace("```", "").strip()
         result = json.loads(raw)
         return {
@@ -109,12 +111,11 @@ async def screen_resumes(
     results = []
     errors = []
 
-    import time
     for resume in resumes:
         resume_bytes = await resume.read()
         resume_text = extract_text(resume_bytes, resume.filename)
         result = score_resume(jd_text, resume_text, resume.filename)
-        time.sleep(3)
+        time.sleep(2)
 
         if result["error"]:
             errors.append(result)

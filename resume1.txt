@@ -1,0 +1,19 @@
+Name: Arjun Sharma
+Email: arjun@email.com
+
+SKILLS
+React.js, JavaScript, HTML, CSS, TypeScript, Git, REST APIs, Tailwind CSS
+
+EXPERIENCE
+Frontend Developer Intern - TechCorp (1 year)
+- Built 3 React.js web apps with REST API integration
+- Used Git for version control daily
+- Implemented responsive designs using Tailwind CSS
+
+PROJECTS
+- Portfolio website built with React and Tailwind
+- Weather app using OpenWeather API and React hooks
+- GitHub: github.com/arjunsharma
+
+EDUCATION
+B.Tech Computer Science - JNTU 2024

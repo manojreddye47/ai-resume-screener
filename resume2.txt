@@ -1,0 +1,17 @@
+Name: Priya Patel
+Email: priya@email.com
+
+SKILLS
+Python, Django, MySQL, some HTML, CSS basics
+
+EXPERIENCE
+Backend Developer - StartupXYZ (2 years)
+- Built REST APIs using Django
+- Managed MySQL databases
+
+PROJECTS
+- Inventory management system in Django
+- REST API for mobile app
+
+EDUCATION
+B.Tech IT - Osmania University 2023
